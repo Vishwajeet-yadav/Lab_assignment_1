@@ -91,7 +91,7 @@ print(end='\n')
 # triangle. If any of the three lengths is greater than the sum of the other two,
 # then you cannot form a triangle. Otherwise, Enter three sides of a triangle,
 # converts them to integers, and to check whether the given input lengths can
-# form a triangle or not (Print : “Yes” or “No”).[Don’t use if else here].
+# form a triangle or not (Print : “Yes” or “No”).
 
 print("Q5:", '\n')
 
