@@ -15,18 +15,17 @@ elif(marks>=80 ):
 else:
     print(" ERROR ")
 
-
 #Q.2
 year = int(input("Enter a year: "))
 
 if year % 4 == 0 :
-    print(year ,"is a Leap Year")
-elif year % 100 == 0 :
+  if year % 100:
+     if year%400:
+         print(year ,"is a Leap Year")
+  else:
     print(year ,"is not a Leap Year")
-elif year % 400 == 0 :
-    print(year ,"is a Leap Year")
 else :
-    print(" ERROR ")
+     print(year ,"is a Leap Year")
 
 
 #Q.3
